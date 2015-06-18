@@ -1,0 +1,196 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Declare heights because of positioning of img element */
+.logo {
+  top: 12;
+  left: 10;
+  z-index: 10;
+  background-color: #777;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-size: 24px;
+  line-height: 1.4;
+  min-width: 100%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  margin-bottom: 60px;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.45) 1%, rgba(0,0,0,0.63) 57%, rgba(0,0,0,0.76) 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.45)), color-stop(1%,rgba(0,0,0,0.45)), color-stop(57%,rgba(0,0,0,0.63)), color-stop(100%,rgba(0,0,0,0.76))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 1%,rgba(0,0,0,0.63) 57%,rgba(0,0,0,0.76) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 1%,rgba(0,0,0,0.63) 57%,rgba(0,0,0,0.76) 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 1%,rgba(0,0,0,0.63) 57%,rgba(0,0,0,0.76) 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(0,0,0,0.45) 0%,rgba(0,0,0,0.45) 1%,rgba(0,0,0,0.63) 57%,rgba(0,0,0,0.76) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73000000', endColorstr='#c2000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.quote {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+
+}
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+
+  vertical-align: -0.4em;
+}
+.quote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.testimonial {
+  margin: 0;
+  background: #B7EDFF;
+  padding: 10px 50px;
+  position: relative;
+  font-family: Georgia, serif;
+  color: #666;
+  border-radius: 5px;
+  font-style: italic;
+  text-shadow: 0 1px 0 #ECFBFF;
+  background-image: linear-gradient(#CEF3FF, #B7EDFF);
+}
+
+.testimonial:before, .testimonial:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  line-height: 1;
+  color: #999;
+  font-style: normal;
+}
+
+.testimonial:before {
+  top: 0;
+  left: 10px;
+}
+
+.testimonial:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -0.5em;
+}
+
+.arrow-down {
+  width: 0;height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #B7EDFF;
+  margin: 0 0 0 25px;
+}
+
+.testimonial-author {
+  margin: 0 0 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  text-align:left;
+}
+
+.testimonial-author span {
+  font-size: 12px;
+  color: #666;
+}
+
+.testimonial-author-photo {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
