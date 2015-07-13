@@ -18,8 +18,10 @@ body {
   padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 40px;
-  background-image: url("unsplash_527bf5fd7f5f6_1.jpg");
+  background-image: url("unsplash_527bf5fd7f5f6_1.JPG");
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* MARKETING CONTENT
